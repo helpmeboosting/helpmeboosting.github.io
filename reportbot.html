@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BAN.CENTER &middot; Private CS:GO Report Bot</title>
+	<link rel="stylesheet" href="reportstyle.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <h1><marquee>COMING SOON....</marquee></h1>
+</head>
+
+<body>
+	<div class="container">
+		<section id="content">
+			<form onsubmit="event.preventDefault(); ban();">
+				<h1>ZeRoBot</h1>
+				<div>
+					<input id="key" type="password" placeholder="Report Bot Key" required="true" pattern=".{6,}" maxlength="6" />
+				</div>
+				<div>
+					<input id="steam64" type="text" placeholder="Steam64 (e.g. 76561198387067411)" pattern="[0-9]{17,}" required="true" maxlength="17" />
+				</div>
+				<div>
+					<input id="match" type="text" placeholder="Match Share Code (e.g. CSGO-AzR5U-fyGnS...)" pattern=".{29,34}" maxlength="34" />
+				</div>
+				<div>
+					<input type="submit" value="Report" />
+					<a href="https://discord.gg/RP6pr9p">Support</a>
+					<a href="https://steamcommunity.com/id/____________ZeRo1337____________/">Buy Key</a>
+				</div>
+			</form><!-- form -->
+			<div class="button">
+				<div class="default">
+					<p>ZeRo's CS:GO Report Bot<br /><small>&copy; ZeRo - 2018</small></p>
+				</div>
+				<div class="loading" style="display:none;">
+					<p><i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>&nbsp; Loading...</p>
+				</div>
+				<div class="concl" style="display:none;">
+					<strong><span style="color:#FF0000;">Failed</span>: Report bot key invalid</strong>
+				</div>
+			</div><!-- button -->
+		</section><!-- content -->
+	</div><!-- container -->
+</body>
+<script src="reportjquery.min.js"></script>
+<script src="reportindex.js"></script>
+</html>
