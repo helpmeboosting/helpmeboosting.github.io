@@ -1,0 +1,42 @@
+/**
+ * custom
+ * place custom style in this file
+ * add !important to the end if no effect
+ * e.g. color: #fff !important;
+ * --------------------------------------------------
+ *
+ */
+
+.is-black .site-bg__overlay {
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.35);
+}
+
+.is-dark .site-bg__overlay {
+  position: absolute;
+  background-color: rgba(30, 31, 37, 0.45);
+}
+
+.injected{
+position: absolute;
+top:5px;
+left:5px;
+}
+
+.injected2{
+position: absolute;
+bottom:5px;
+right:5px;
+}
+
+.hosting{
+position: absolute;
+bottom:5px;
+left:5px;
+}
+
+.lobbies{
+position: absolute;
+top:5px;
+right:5px;
+}
